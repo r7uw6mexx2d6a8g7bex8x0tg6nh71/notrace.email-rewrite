@@ -1,15 +1,21 @@
 
 ---
 
-# Notrace.email Rebuild
+# Notrace.email Website Rewrite
 
-This repository hosts a complete rewrite of the [notrace.email](https://notrace.email) website, developed with [Next.js](https://nextjs.org) and bootstrapped using [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+This repository contains a full rewrite of the [notrace.email](https://notrace.email) website, rebuilt with [Next.js](https://nextjs.org) using the [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app) starter.
 
 ---
 
-## 🚀 Getting Started
+## About This Project
 
-Kick off your local development server by running one of the following commands:
+I am actively rewriting the notrace.email website to improve its code quality, structure, and performance, with the goal of contributing to the official dev team. This rewrite aims to modernize the codebase using best practices in Next.js development while maintaining the core functionality and design.
+
+---
+
+## Getting Started
+
+To run this project locally:
 
 ```bash
 npm run dev
@@ -21,38 +27,43 @@ pnpm dev
 bun dev
 ```
 
-Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the site live.
+Open [http://localhost:3000](http://localhost:3000) in your browser to preview the app.
 
 
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to seamlessly load and optimize the beautiful [Geist font](https://vercel.com/font), crafted by Vercel.
-
----
-
-## 📚 Learn More
-
-* **[Next.js Documentation](https://nextjs.org/docs)** — Official guides and API references.
-* **[Learn Next.js](https://nextjs.org/learn-pages-router)** — Interactive tutorials to get hands-on with Next.js.
-
-Check out the [Next.js GitHub repository](https://github.com/vercel/next.js) — your contributions and feedback are always appreciated!
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to load and optimize the sleek [Geist font](https://vercel.com/font), created by Vercel.
 
 ---
 
-## ⚡ Deployment
+## Why This Rewrite?
 
-Deploy your Next.js app quickly and reliably with the [Vercel platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), built by the creators of Next.js.
-
-Learn more in the [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying).
-
----
-
-## 🙌 Credits & Ownership
-
-* Original development inspired by **Bandit⁷⁷⁷** — connect on Discord: **@counterthelaw**
-* Project ownership and ongoing leadership by **Lace** — Discord: **@romvnticized**
-
-Thank you both for your amazing work and vision!
+* To enhance maintainability, scalability, and code clarity.
+* To apply modern React and Next.js features effectively.
+* To contribute meaningfully to the notrace.email team and ecosystem.
 
 ---
 
-If you'd like, I can also help add badges, a contributing guide, or screenshots to make this README even more engaging!
+## Learn More About Next.js
+
+* [Official Next.js Documentation](https://nextjs.org/docs) — Explore Next.js’s full capabilities.
+* [Next.js Interactive Tutorial](https://nextjs.org/learn-pages-router) — Hands-on learning to deepen understanding.
+
+---
+
+## Deployment
+
+Deploy easily with [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), the recommended hosting platform for Next.js apps.
+
+More info in the [Next.js deployment docs](https://nextjs.org/docs/pages/building-your-application/deploying).
+
+---
+
+## Credits & Contact
+
+This project builds upon the original work of:
+
+* **Bandit⁷⁷⁷** (Discord: @counterthelaw) — Original developer.
+* **Lace** (Discord: @romvnticized) — Owner and project lead.
+
+
+
