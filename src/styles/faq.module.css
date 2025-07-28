@@ -1,0 +1,117 @@
+.wrapper {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+  color: #f3f3f3;
+  font-family: 'Inter', sans-serif;
+}
+
+.title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  text-align: center;
+  color: #e11d48;
+  margin-bottom: 3rem;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  background: #111;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 2.5rem;
+}
+
+.searchIcon {
+  color: #e11d48;
+  margin-right: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.searchInput {
+  background: transparent;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1rem;
+  color: #f3f4f6;
+}
+
+.faqGrid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.card {
+  background: #0b0b0b;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(20px);
+  will-change: opacity, transform;
+}
+
+.card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card.open {
+  border-color: #e11d48;
+  background-color: #111;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.iconWrapper {
+  background-color: #e11d48;
+  color: white;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.question {
+  flex: 1;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #f9fafb;
+}
+
+.chevron {
+  transition: transform 0.35s ease;
+  font-size: 1.25rem;
+  color: #e11d48;
+}
+
+.card.open .chevron {
+  transform: rotate(180deg);
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  font-size: 0.975rem;
+  line-height: 1.6;
+  color: #d1d5db;
+  margin-top: 0;
+  transition: all 0.4s ease;
+}
+
+.card.open .answer {
+  margin-top: 1rem;
+  max-height: 300px;
+}

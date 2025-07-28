@@ -1,30 +1,36 @@
-import styles from "../styles/HeroSection.module.css";
+import styles from "@/styles/HeroSection.module.css";
 
+/**
+ * HeroSection component with floating logos and main marketing message.
+ */
 export default function HeroSection() {
-  // Create an array with 10 items for logos
-  const logos = Array.from({ length: 10 });
+  // Array for rendering floating logos (14 total)
+  const logosCount = 14;
+  const logos = Array.from({ length: logosCount });
 
   return (
     <section className={styles.hero} aria-label="Hero section">
+      {/* Decorative accent shape (non-interactive) */}
       <div className={styles.accentShape} aria-hidden="true" />
 
+      {/* Floating logos background, purely decorative */}
       <div className={styles.floatingLogoWrapper} aria-hidden="true">
-        {logos.map((_, i) => (
+        {logos.map((_, index) => (
           <div
-            key={i}
+            key={index}
             className={styles.floatingLogo}
-            style={{
-              "--i": i,
-            }}
+            style={{ "--i": index }}
           >
             <img src="/assets/5w46cf.png" alt="" />
           </div>
         ))}
       </div>
 
+      {/* Main content: headline and description */}
       <div className={styles.content}>
         <h1 className={styles.headingMain}>
-          Own Your <span className={styles.headingHighlight}>Inbox</span> with{" "}
+          Own Your{" "}
+          <span className={styles.headingHighlight}>Inbox</span> with{" "}
           <span className={styles.headingHighlight}>notrace.email</span>
         </h1>
 
